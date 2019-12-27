@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <p>
+        节点p
+        <P></P>
+    </p>
+    <!-- <button onclick="myFunction()">点我</button> -->
+    <script >  
+    let i = document.getElementById('myList')
+    let 
+    var newItem = document.createElement("p");
+    var textnode = document.createTextNode("Water");
+    newItem.appendChild(textnode);
+    i.insertBefore(newItem,i.nextSibling)
+
+    // function myFunction() {
+    //      var newItem = document.createElement("li");
+    //      var textnode = document.createTextNode("Water");
+    //      newItem.appendChild(textnode);
+    //      var list = document.getElementById("myList");
+    //      //list.insertBefore(newItem,list.childNodes[0]);//第一种
+    //      //list.insertBefore(newItem);//第二种
+    //      list.insertBefore(newItem,null);//第三种
+    //     }
+    </script>
+  
+</body>
+</html>
